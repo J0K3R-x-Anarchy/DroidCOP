@@ -1,86 +1,110 @@
-# DroidCOP
+# 🚔 DroidCOP
 
-Advanced Android Forensics & Threat Detection Tool
+<p align="center">
+<b>Advanced Android Forensics & Threat Detection Tool</b>
+</p>
 
-DroidCOP is an Android device inspection and forensic analysis tool that detects suspicious behavior, malware indicators, dangerous permissions, and system anomalies on connected Android devices.
+<p align="center">
 
-Designed for security researchers, penetration testers, and digital forensic analysts.
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Security%20Tool-red?style=for-the-badge)
+![Language](https://img.shields.io/badge/Built%20With-Python-yellow?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2.0-green?style=for-the-badge)
+
+</p>
 
 ---
 
-## Download
+## 🔍 Overview
 
-[Download DroidCOP.exe](YOUR_DRIVE_LINK_HERE)
+**DroidCOP** is an advanced Android device forensic inspection and threat detection tool that analyzes connected Android devices using **ADB** and detects suspicious behavior, malware indicators, dangerous permissions, and system anomalies.
 
-Standalone Windows executable — No Python installation required.
+Designed for:
+
+- 🔐 Security Researchers  
+- 🧪 Malware Analysts  
+- 🕵️ Digital Forensic Investigators  
+- 💻 Android Pentesters  
 
 ---
 
-## Features
+# ⬇️ Download
 
-DroidCOP performs deep Android device security inspection using ADB-based analysis and behavioral heuristics.
+<p align="center">
 
-### Device Security Checks
+[![Download](https://img.shields.io/badge/Download-DroidCOP.exe-brightgreen?style=for-the-badge&logo=windows)](YOUR_DRIVE_LINK_HERE)
+
+</p>
+
+⚠️ Standalone executable — **No Python installation required**
+
+---
+
+# ✨ Features
+
+### 🧪 Device Inspection
 
 - Suspicious APK detection
 - Hidden APK discovery
-- Malware package detection
+- Malware package identification
 - Dangerous permission audit
 - Background service inspection
 - Clipboard monitoring app detection
 - Camera and microphone usage analysis
 - Foreground service abuse detection
 
-### Advanced Threat Analysis
+---
+
+### 🛡 Threat Detection
 
 - Known spyware package detection
 - Accessibility service abuse detection
 - SELinux violation detection
 - Logcat anomaly scanning
 - Battery drain analysis
-- Suspicious system service inspection
+- Suspicious system service detection
 - Malware behavioral indicators
 
 ---
 
-## Risk Scoring System
+# 🧠 Intelligent Risk Scoring
 
-DroidCOP calculates a device risk score based on detected indicators.
+DroidCOP calculates a **device risk score** based on detected indicators.
 
-Severity Levels:
+| Severity | Meaning |
+|--------|--------|
+| 🟢 LOW | Minor suspicious indicators |
+| 🟡 MEDIUM | Potentially unsafe configuration |
+| 🟠 HIGH | Strong suspicious activity |
+| 🔴 CRITICAL | Likely malware / spyware behavior |
 
-LOW – Minor suspicious indicators  
-MEDIUM – Potentially unsafe configuration  
-HIGH – Strong suspicious activity  
-CRITICAL – Likely malware or spyware behavior  
-
-The final report includes a clear severity rating and investigation details.
+Each detection contributes to the **final device risk score**.
 
 ---
 
-## Usage
+# ⚙️ Usage
 
-DroidCOP runs from the command line.
+DroidCOP runs directly from the terminal.
 
-Basic scan:
+### Basic Scan
 
 ```
 DroidCOP.exe --scan
 ```
 
-Deep scan:
+### Deep Scan
 
 ```
 DroidCOP.exe --deep
 ```
 
-Scan specific device:
+### Scan Specific Device
 
 ```
 DroidCOP.exe --device <device_id>
 ```
 
-Export report:
+### Save Report
 
 ```
 DroidCOP.exe --report report.txt
@@ -88,7 +112,7 @@ DroidCOP.exe --report report.txt
 
 ---
 
-## Example Output
+# 🖥 Example Terminal Output
 
 ```
 [+] Device Connected
@@ -106,13 +130,13 @@ Severity : HIGH
 
 ---
 
-## Generated Report
+# 📄 Generated Report
 
-DroidCOP generates a clean forensic text report including:
+DroidCOP creates a **clean forensic report** including:
 
 - Device information
 - Installed apps analysis
-- Suspicious permissions
+- Dangerous permissions
 - Malware indicators
 - Behavioral anomalies
 - Final risk score
@@ -133,13 +157,13 @@ Findings:
 
 ---
 
-## Requirements
+# 🖥 Requirements
 
 - Windows OS
-- ADB installed and accessible in PATH
-- Android device with USB debugging enabled
+- ADB installed and available in PATH
+- Android device with **USB Debugging enabled**
 
-Verify ADB connection:
+Verify connection:
 
 ```
 adb devices
@@ -147,42 +171,61 @@ adb devices
 
 ---
 
-## Use Cases
+# 📊 DroidCOP Workflow
+
+```
+Connect Android Device
+        │
+Enable USB Debugging
+        │
+Run DroidCOP
+        │
+System Inspection
+        │
+Threat Detection
+        │
+Risk Scoring
+        │
+Report Generated
+```
+
+---
+
+# 🧰 Use Cases
 
 - Android malware investigation
 - Digital forensic analysis
-- Security research
-- Corporate device security auditing
-- Pentesting labs
+- Corporate device auditing
+- Security research labs
 - Spyware detection
-- Suspicious device inspection
+- Android pentesting
 
 ---
 
-## Disclaimer
+# ⚠️ Disclaimer
 
-This tool is intended only for educational, research, and authorized security testing purposes.
+This tool is intended **only for educational and authorized security testing purposes**.
 
-Unauthorized scanning of devices without permission may be illegal.
+Do not scan devices without permission.
 
-The developer is not responsible for misuse of this tool.
+The developer assumes **no responsibility for misuse**.
 
 ---
 
-## Author
+# 👨‍💻 Author
 
-Akshar Ratnani
+**Akshar Ratnani**
 
 Security Researcher  
 Android Pentesting  
-Offensive Security
+Offensive Security  
 
 ---
 
-## Support
+# ⭐ Support the Project
 
-If you find this project useful:
+If you find this tool useful:
 
 ⭐ Star the repository  
 🍴 Fork the project  
-🛠 Contribute improvements
+🛠 Contribute improvements  
