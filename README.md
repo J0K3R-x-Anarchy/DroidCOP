@@ -36,11 +36,11 @@ Designed for:
 
 <p align="center">
 
-<a href="WINDOWS_DOWNLOAD_LINK">
+<a href="https://www.dropbox.com/scl/fi/vppwerp4973u3pdz6u7qn/DroidCOP_Windows.exe?rlkey=dd21j01ujkgb9wn8cpw1jualq&st=je4lug1l&dl=1">
 <img src="https://img.shields.io/badge/Download-Windows%20EXE-brightgreen?style=for-the-badge&logo=windows">
 </a>
 
-<a href="LINUX_DOWNLOAD_LINK">
+<a href="https://www.dropbox.com/scl/fi/g35hfn0ijur8l9906iqu2/DroidCOP_Linux?rlkey=qpbih969g88d1oozknf8by4o9&st=062qe2e6&dl=1">
 <img src="https://img.shields.io/badge/Download-Linux%20BIN-orange?style=for-the-badge&logo=linux">
 </a>
 
