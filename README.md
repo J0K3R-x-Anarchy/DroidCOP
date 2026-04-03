@@ -10,7 +10,7 @@ Advanced Android Forensics & Threat Detection Tool
 
 <p align="center">
 
-![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=for-the-badge)
 ![Type](https://img.shields.io/badge/Type-Security%20Tool-red?style=for-the-badge)
 ![Built With](https://img.shields.io/badge/Built%20With-Python-yellow?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-2.0-green?style=for-the-badge)
@@ -36,11 +36,17 @@ Designed for:
 
 <p align="center">
 
-[![Download](https://img.shields.io/badge/Download-DroidCOP.exe-brightgreen?style=for-the-badge&logo=windows)](YOUR_DRIVE_LINK_HERE)
+<a href="WINDOWS_DOWNLOAD_LINK">
+<img src="https://img.shields.io/badge/Download-Windows%20EXE-brightgreen?style=for-the-badge&logo=windows">
+</a>
+
+<a href="LINUX_DOWNLOAD_LINK">
+<img src="https://img.shields.io/badge/Download-Linux%20BIN-orange?style=for-the-badge&logo=linux">
+</a>
 
 </p>
 
-Standalone executable — **No Python installation required**
+Standalone executables — **No Python installation required**
 
 ---
 
@@ -88,35 +94,45 @@ Each detection contributes to the **final device risk score**.
 
 # ⚙️ Usage
 
-DroidCOP runs directly from the terminal.
+## Windows
 
-### Basic Scan
+Run the executable:
 
 ```
 DroidCOP.exe --scan
 ```
 
-### Deep Scan
+Deep scan:
 
 ```
 DroidCOP.exe --deep
 ```
 
-### Scan Specific Device
+---
+
+## Linux
+
+Make the binary executable:
 
 ```
-DroidCOP.exe --device <device_id>
+chmod +x DroidCOP.bin
 ```
 
-### Save Report
+Run the tool:
 
 ```
-DroidCOP.exe --report report.txt
+./DroidCOP.bin --scan
+```
+
+Deep scan:
+
+```
+./DroidCOP.bin --deep
 ```
 
 ---
 
-# 🖥 Example Terminal Output
+# 📄 Example Output
 
 ```
 [+] Device Connected
@@ -134,37 +150,9 @@ Severity : HIGH
 
 ---
 
-# 📄 Generated Report
-
-DroidCOP creates a **clean forensic report** including:
-
-- Device information
-- Installed apps analysis
-- Dangerous permissions
-- Malware indicators
-- Behavioral anomalies
-- Final risk score
-
-Example:
-
-```
-Device Risk Score : 72
-Severity : HIGH
-
-Findings:
-
-• Suspicious foreground service detected
-• Hidden APK discovered
-• Clipboard monitoring app detected
-• Known spyware package detected
-```
-
----
-
 # 🖥 Requirements
 
-- Windows OS
-- ADB installed and available in PATH
+- ADB installed
 - Android device with **USB Debugging enabled**
 
 Verify connection:
@@ -208,7 +196,7 @@ Report Generated
 
 # ⚠️ Disclaimer
 
-This tool is intended **only for educational and authorized security testing purposes.**
+This tool is intended **only for educational and authorized security testing purposes**.
 
 Do not scan devices without permission.
 
