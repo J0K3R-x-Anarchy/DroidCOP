@@ -1,21 +1,25 @@
-# 🚔 DroidCOP
+<p align="center">
+  <img src="logo.png" width="420">
+</p>
+
+<h1 align="center">DroidCOP</h1>
 
 <p align="center">
-<b>Advanced Android Forensics & Threat Detection Tool</b>
+Advanced Android Forensics & Threat Detection Tool
 </p>
 
 <p align="center">
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
 ![Type](https://img.shields.io/badge/Type-Security%20Tool-red?style=for-the-badge)
-![Language](https://img.shields.io/badge/Built%20With-Python-yellow?style=for-the-badge)
+![Built With](https://img.shields.io/badge/Built%20With-Python-yellow?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-2.0-green?style=for-the-badge)
 
 </p>
 
 ---
 
-## 🔍 Overview
+# 🔍 Overview
 
 **DroidCOP** is an advanced Android device forensic inspection and threat detection tool that analyzes connected Android devices using **ADB** and detects suspicious behavior, malware indicators, dangerous permissions, and system anomalies.
 
@@ -36,17 +40,17 @@ Designed for:
 
 </p>
 
-⚠️ Standalone executable — **No Python installation required**
+Standalone executable — **No Python installation required**
 
 ---
 
 # ✨ Features
 
-### 🧪 Device Inspection
+## 🧪 Device Inspection
 
 - Suspicious APK detection
 - Hidden APK discovery
-- Malware package identification
+- Malware package detection
 - Dangerous permission audit
 - Background service inspection
 - Clipboard monitoring app detection
@@ -55,14 +59,14 @@ Designed for:
 
 ---
 
-### 🛡 Threat Detection
+## 🛡 Advanced Threat Analysis
 
 - Known spyware package detection
 - Accessibility service abuse detection
 - SELinux violation detection
 - Logcat anomaly scanning
 - Battery drain analysis
-- Suspicious system service detection
+- Suspicious system service inspection
 - Malware behavioral indicators
 
 ---
@@ -76,7 +80,7 @@ DroidCOP calculates a **device risk score** based on detected indicators.
 | 🟢 LOW | Minor suspicious indicators |
 | 🟡 MEDIUM | Potentially unsafe configuration |
 | 🟠 HIGH | Strong suspicious activity |
-| 🔴 CRITICAL | Likely malware / spyware behavior |
+| 🔴 CRITICAL | Likely malware or spyware behavior |
 
 Each detection contributes to the **final device risk score**.
 
@@ -204,7 +208,7 @@ Report Generated
 
 # ⚠️ Disclaimer
 
-This tool is intended **only for educational and authorized security testing purposes**.
+This tool is intended **only for educational and authorized security testing purposes.**
 
 Do not scan devices without permission.
 
@@ -222,9 +226,9 @@ Offensive Security
 
 ---
 
-# ⭐ Support the Project
+# ⭐ Support
 
-If you find this tool useful:
+If you find this project useful:
 
 ⭐ Star the repository  
 🍴 Fork the project  
